@@ -9,7 +9,8 @@ use Flowframe\Trend\TrendValue;
 
 class OrdersChart extends ChartWidget
 {
-    protected static ?string $heading = 'Orders Chart';
+    protected ?string $heading = 'Orders Chart';
+    protected static ? int $sort =3;
 
     protected function getData(): array
     {

@@ -9,7 +9,8 @@ use Flowframe\Trend\TrendValue;
 
 class CustomerWidget extends ChartWidget
 {
-    protected static ?string $heading = 'Customer Chart';
+    protected ?string $heading = 'Customer Chart';
+    protected static ? int $sort =2;
 
     protected function getData(): array
     {
